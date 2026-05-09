@@ -67,7 +67,8 @@ The Pearson correlation between **node degree** and **per-sensor prediction erro
 | `02_sensor_prediction.png` | One sensor's 5-min-ahead prediction over 200 timesteps |
 | `03_per_sensor_error.png` | Per-sensor mean absolute error across the network |
 | `04_model_comparison.png` | T-GCN vs LSTM, RMSE and MAE side by side |
-| `05_degree_vs_error.png` | Node degree vs prediction error (Pearson scatter) |
+| `05_ablation_hidden_dim.png` | Ablation: T-GCN test RMSE vs hidden dimension (16, 32, 64) |
+| `06_degree_vs_error.png` | Node degree vs prediction error (Pearson scatter, r = −0.096) |
 
 ## How to run
 
